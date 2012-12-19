@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DB30C561681AF8100663FE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB30C551681AF8100663FE9 /* UIKit.framework */; };
+		1DB30C581681AF8100663FE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB30C571681AF8100663FE9 /* Foundation.framework */; };
+		1DB30C5A1681AF8100663FE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB30C591681AF8100663FE9 /* CoreGraphics.framework */; };
+		1DB30C601681AF8100663FE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DB30C5E1681AF8100663FE9 /* InfoPlist.strings */; };
+		1DB30C621681AF8100663FE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB30C611681AF8100663FE9 /* main.m */; };
+		1DB30C661681AF8100663FE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB30C651681AF8100663FE9 /* AppDelegate.m */; };
+		1DB30C681681AF8100663FE9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB30C671681AF8100663FE9 /* Default.png */; };
+		1DB30C6A1681AF8100663FE9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB30C691681AF8100663FE9 /* Default@2x.png */; };
+		1DB30C6C1681AF8100663FE9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB30C6B1681AF8100663FE9 /* Default-568h@2x.png */; };
+		1DB30CD61681C8D600663FE9 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB30CC71681C8D600663FE9 /* JSONKit.m */; };
+		1DB30CD71681C8D600663FE9 /* SinaWeibo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1DB30CC91681C8D600663FE9 /* SinaWeibo.bundle */; };
+		1DB30CD81681C8D600663FE9 /* SinaWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB30CCB1681C8D600663FE9 /* SinaWeibo.m */; };
+		1DB30CD91681C8D600663FE9 /* SinaWeiboAuthorizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB30CCD1681C8D600663FE9 /* SinaWeiboAuthorizeView.m */; };
+		1DB30CDA1681C8D600663FE9 /* SinaWeiboRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB30CD01681C8D600663FE9 /* SinaWeiboRequest.m */; };
+		1DB30CDC1681C8D600663FE9 /* libWeChatSDK_armv7_armv7s.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB30CD31681C8D600663FE9 /* libWeChatSDK_armv7_armv7s.a */; };
+		1DB30CE31681CCD500663FE9 /* SNSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB30CE11681CCD500663FE9 /* SNSViewController.m */; };
+		1DB30CE41681CCD500663FE9 /* SNSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DB30CE21681CCD500663FE9 /* SNSViewController.xib */; };
+		1DB30CE71681D17600663FE9 /* TBWXApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB30CE61681D17500663FE9 /* TBWXApi.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DB30C511681AF8100663FE9 /* SNS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB30C551681AF8100663FE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1DB30C571681AF8100663FE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DB30C591681AF8100663FE9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1DB30C5D1681AF8100663FE9 /* SNS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SNS-Info.plist"; sourceTree = "<group>"; };
+		1DB30C5F1681AF8100663FE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1DB30C611681AF8100663FE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DB30C631681AF8100663FE9 /* SNS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SNS-Prefix.pch"; sourceTree = "<group>"; };
+		1DB30C641681AF8100663FE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1DB30C651681AF8100663FE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1DB30C671681AF8100663FE9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1DB30C691681AF8100663FE9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1DB30C6B1681AF8100663FE9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1DB30CC61681C8D600663FE9 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		1DB30CC71681C8D600663FE9 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		1DB30CC91681C8D600663FE9 /* SinaWeibo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SinaWeibo.bundle; sourceTree = "<group>"; };
+		1DB30CCA1681C8D600663FE9 /* SinaWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeibo.h; sourceTree = "<group>"; };
+		1DB30CCB1681C8D600663FE9 /* SinaWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaWeibo.m; sourceTree = "<group>"; };
+		1DB30CCC1681C8D600663FE9 /* SinaWeiboAuthorizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeiboAuthorizeView.h; sourceTree = "<group>"; };
+		1DB30CCD1681C8D600663FE9 /* SinaWeiboAuthorizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaWeiboAuthorizeView.m; sourceTree = "<group>"; };
+		1DB30CCE1681C8D600663FE9 /* SinaWeiboConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeiboConstants.h; sourceTree = "<group>"; };
+		1DB30CCF1681C8D600663FE9 /* SinaWeiboRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeiboRequest.h; sourceTree = "<group>"; };
+		1DB30CD01681C8D600663FE9 /* SinaWeiboRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaWeiboRequest.m; sourceTree = "<group>"; };
+		1DB30CD31681C8D600663FE9 /* libWeChatSDK_armv7_armv7s.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK_armv7_armv7s.a; sourceTree = "<group>"; };
+		1DB30CD41681C8D600663FE9 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		1DB30CD51681C8D600663FE9 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		1DB30CE01681CCD400663FE9 /* SNSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSViewController.h; sourceTree = "<group>"; };
+		1DB30CE11681CCD500663FE9 /* SNSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSViewController.m; sourceTree = "<group>"; };
+		1DB30CE21681CCD500663FE9 /* SNSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SNSViewController.xib; sourceTree = "<group>"; };
+		1DB30CE51681D17500663FE9 /* TBWXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBWXApi.h; sourceTree = "<group>"; };
+		1DB30CE61681D17500663FE9 /* TBWXApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBWXApi.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DB30C4E1681AF8100663FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB30C561681AF8100663FE9 /* UIKit.framework in Frameworks */,
+				1DB30C581681AF8100663FE9 /* Foundation.framework in Frameworks */,
+				1DB30C5A1681AF8100663FE9 /* CoreGraphics.framework in Frameworks */,
+				1DB30CDC1681C8D600663FE9 /* libWeChatSDK_armv7_armv7s.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DB30C461681AF8100663FE9 = {
+			isa = PBXGroup;
+			children = (
+				1DB30C5B1681AF8100663FE9 /* SNS */,
+				1DB30C541681AF8100663FE9 /* Frameworks */,
+				1DB30C521681AF8100663FE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DB30C521681AF8100663FE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DB30C511681AF8100663FE9 /* SNS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DB30C541681AF8100663FE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DB30C551681AF8100663FE9 /* UIKit.framework */,
+				1DB30C571681AF8100663FE9 /* Foundation.framework */,
+				1DB30C591681AF8100663FE9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DB30C5B1681AF8100663FE9 /* SNS */ = {
+			isa = PBXGroup;
+			children = (
+				1DB30C641681AF8100663FE9 /* AppDelegate.h */,
+				1DB30C651681AF8100663FE9 /* AppDelegate.m */,
+				1DB30CE01681CCD400663FE9 /* SNSViewController.h */,
+				1DB30CE11681CCD500663FE9 /* SNSViewController.m */,
+				1DB30CE21681CCD500663FE9 /* SNSViewController.xib */,
+				1DB30CC31681C8D600663FE9 /* Classes */,
+				1DB30C5C1681AF8100663FE9 /* Supporting Files */,
+			);
+			path = SNS;
+			sourceTree = "<group>";
+		};
+		1DB30C5C1681AF8100663FE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DB30C5D1681AF8100663FE9 /* SNS-Info.plist */,
+				1DB30C5E1681AF8100663FE9 /* InfoPlist.strings */,
+				1DB30C611681AF8100663FE9 /* main.m */,
+				1DB30C631681AF8100663FE9 /* SNS-Prefix.pch */,
+				1DB30C671681AF8100663FE9 /* Default.png */,
+				1DB30C691681AF8100663FE9 /* Default@2x.png */,
+				1DB30C6B1681AF8100663FE9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DB30CC31681C8D600663FE9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1DB30CC41681C8D600663FE9 /* SinaWeiboSDK */,
+				1DB30CD11681C8D600663FE9 /* WXSDK */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1DB30CC41681C8D600663FE9 /* SinaWeiboSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1DB30CC51681C8D600663FE9 /* JSONKit */,
+				1DB30CC81681C8D600663FE9 /* SinaWeibo */,
+			);
+			path = SinaWeiboSDK;
+			sourceTree = "<group>";
+		};
+		1DB30CC51681C8D600663FE9 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				1DB30CC61681C8D600663FE9 /* JSONKit.h */,
+				1DB30CC71681C8D600663FE9 /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		1DB30CC81681C8D600663FE9 /* SinaWeibo */ = {
+			isa = PBXGroup;
+			children = (
+				1DB30CC91681C8D600663FE9 /* SinaWeibo.bundle */,
+				1DB30CCA1681C8D600663FE9 /* SinaWeibo.h */,
+				1DB30CCB1681C8D600663FE9 /* SinaWeibo.m */,
+				1DB30CCC1681C8D600663FE9 /* SinaWeiboAuthorizeView.h */,
+				1DB30CCD1681C8D600663FE9 /* SinaWeiboAuthorizeView.m */,
+				1DB30CCE1681C8D600663FE9 /* SinaWeiboConstants.h */,
+				1DB30CCF1681C8D600663FE9 /* SinaWeiboRequest.h */,
+				1DB30CD01681C8D600663FE9 /* SinaWeiboRequest.m */,
+			);
+			path = SinaWeibo;
+			sourceTree = "<group>";
+		};
+		1DB30CD11681C8D600663FE9 /* WXSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1DB30CD31681C8D600663FE9 /* libWeChatSDK_armv7_armv7s.a */,
+				1DB30CD41681C8D600663FE9 /* WXApi.h */,
+				1DB30CD51681C8D600663FE9 /* WXApiObject.h */,
+				1DB30CE51681D17500663FE9 /* TBWXApi.h */,
+				1DB30CE61681D17500663FE9 /* TBWXApi.m */,
+			);
+			path = WXSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DB30C501681AF8100663FE9 /* SNS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB30C6F1681AF8100663FE9 /* Build configuration list for PBXNativeTarget "SNS" */;
+			buildPhases = (
+				1DB30C4D1681AF8100663FE9 /* Sources */,
+				1DB30C4E1681AF8100663FE9 /* Frameworks */,
+				1DB30C4F1681AF8100663FE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNS;
+			productName = SNS;
+			productReference = 1DB30C511681AF8100663FE9 /* SNS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DB30C481681AF8100663FE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = tongbu;
+			};
+			buildConfigurationList = 1DB30C4B1681AF8100663FE9 /* Build configuration list for PBXProject "SNS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1DB30C461681AF8100663FE9;
+			productRefGroup = 1DB30C521681AF8100663FE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DB30C501681AF8100663FE9 /* SNS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DB30C4F1681AF8100663FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB30C601681AF8100663FE9 /* InfoPlist.strings in Resources */,
+				1DB30C681681AF8100663FE9 /* Default.png in Resources */,
+				1DB30C6A1681AF8100663FE9 /* Default@2x.png in Resources */,
+				1DB30C6C1681AF8100663FE9 /* Default-568h@2x.png in Resources */,
+				1DB30CD71681C8D600663FE9 /* SinaWeibo.bundle in Resources */,
+				1DB30CE41681CCD500663FE9 /* SNSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DB30C4D1681AF8100663FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB30C621681AF8100663FE9 /* main.m in Sources */,
+				1DB30C661681AF8100663FE9 /* AppDelegate.m in Sources */,
+				1DB30CD61681C8D600663FE9 /* JSONKit.m in Sources */,
+				1DB30CD81681C8D600663FE9 /* SinaWeibo.m in Sources */,
+				1DB30CD91681C8D600663FE9 /* SinaWeiboAuthorizeView.m in Sources */,
+				1DB30CDA1681C8D600663FE9 /* SinaWeiboRequest.m in Sources */,
+				1DB30CE31681CCD500663FE9 /* SNSViewController.m in Sources */,
+				1DB30CE71681D17600663FE9 /* TBWXApi.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1DB30C5E1681AF8100663FE9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DB30C5F1681AF8100663FE9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DB30C6D1681AF8100663FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DB30C6E1681AF8100663FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DB30C701681AF8100663FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNS/SNS-Prefix.pch";
+				INFOPLIST_FILE = "SNS/SNS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SNS/Classes/WXSDK\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1DB30C711681AF8100663FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNS/SNS-Prefix.pch";
+				INFOPLIST_FILE = "SNS/SNS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SNS/Classes/WXSDK\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DB30C4B1681AF8100663FE9 /* Build configuration list for PBXProject "SNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB30C6D1681AF8100663FE9 /* Debug */,
+				1DB30C6E1681AF8100663FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DB30C6F1681AF8100663FE9 /* Build configuration list for PBXNativeTarget "SNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB30C701681AF8100663FE9 /* Debug */,
+				1DB30C711681AF8100663FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DB30C481681AF8100663FE9 /* Project object */;
+}
